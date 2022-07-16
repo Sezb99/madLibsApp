@@ -7,8 +7,7 @@ const numberOfQuestions = 6;
 const questionArray = ["Ingrese un nombre para el protagonista" , "Ingrese un país" , "Ingrese un sustantivo (ejm. 'animal')" , "Ingrese un verbo (ejm. 'golpear'" , "Ingrese un nombre para el antagonista" , "Ingrese un sustantivo (ejm. 'felino')"];
 let questionCounter = 0;
 for (let i = questionArray.length ; i > 0 ; i--){
-
-console.log(questionArray[questionCounter]);
+console.log(questionArray[questionCounter] + ` ; ${i - 1} preguntas restantes`);
 
 
 
